@@ -54,7 +54,7 @@ on enable-low-power
     mkdir /dev/cpuset/camera-daemon
     chown system system /dev/cpuset/camera-daemon
     chown system system /dev/cpuset/camera-daemon/tasks
-    chmod 0664 /dev/cpuset/camera-daemon/tasks
+    chmod 0660 /dev/cpuset/camera-daemon/tasks
 
     # Update foreground and background cpusets
     # Reserve CPU 3 for the top app
