@@ -14,7 +14,6 @@ TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=softfp
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm8909
-TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8909
 
 # Qualcomm support
