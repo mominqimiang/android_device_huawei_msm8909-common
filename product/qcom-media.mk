@@ -11,7 +11,7 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_flacdec
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media_codecs_msm8909.xml:system/etc/media_codecs.xml
+    $(LOCAL_PATH)/configs/media_codecs_msm8909.xml:system/vendor/etc/media_codecs.xml
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
