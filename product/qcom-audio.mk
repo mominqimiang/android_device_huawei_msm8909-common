@@ -1,6 +1,5 @@
 # Audio
 PRODUCT_PACKAGES += \
-    audiod \
     audio.primary.msm8909 \
     libqcompostprocbundle \
     libqcomvisualizer \
