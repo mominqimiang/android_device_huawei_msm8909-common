@@ -21,4 +21,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Compatibility
 PRODUCT_PACKAGES += \
-    libboringssl-compat
+    libboringssl-compat \
+    libstlport
