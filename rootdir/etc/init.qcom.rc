@@ -283,7 +283,7 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
     disabled
     oneshot
 
-service ril-daemon2 /vendor/bin/rild -c 2
+service ril-daemon2 /system/vendor/bin/rild -c 2
     class main
     user radio
     group radio cache inet misc audio log readproc wakelock
@@ -318,14 +318,14 @@ service qseecomd /system/vendor/bin/qseecomd
     group root
     writepid /dev/cpuset/system-background/tasks
 
-service perfd /vendor/bin/perfd
+service perfd /system/vendor/bin/perfd
     class main
     user root
     group root readproc system
     disabled
     writepid /dev/cpuset/system-background/tasks
 
-service thermal-engine /vendor/bin/thermal-engine
+service thermal-engine /system/vendor/bin/thermal-engine
     class main
     user root
     group root
