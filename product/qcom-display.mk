@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=dyn \
     debug.mdpcomp.idletime=600 \
+    debug.sf.enable_hwc_vds=1 \
     persist.hwc.mdpcomp.enable=true \
     persist.hwc.ptor.enable=true \
     debug.enable.sglscale=1
